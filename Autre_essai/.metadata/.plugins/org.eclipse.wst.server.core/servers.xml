@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.0-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.0" name="Tomcat v8.0" runtime-id="Apache Tomcat v8.0" server-type="org.eclipse.jst.server.tomcat.80" server-type-id="org.eclipse.jst.server.tomcat.80" start-timeout="240" stop-timeout="30" testEnvironment="true" timestamp="0" />
-  <server id="GlassFish 2.1" name="GlassFish 2.1" runtime-id="GlassFish 2.1 Java EE 5" hostname="localhost" server-type="com.sun.enterprise.jst.server.sunappsrv91" server-type-id="com.sun.enterprise.jst.server.sunappsrv91" auto-publish-setting="1" start-timeout="240" stop-timeout="30" timestamp="0">
-    <map key="generic_server_instance_properties" sunappserver.adminname="admin" sunappserver.adminpassword="adminadmin" sunappserver.adminserverportnumber="4848" sunappserver.domainpath="C:\Program Files\Eclipse_DEV\Serveurs\J2EE\glassfish\glassfish-v2.1.1/domains/domain1" sunappserver.serveraddress="localhost" sunappserver.serverportnumber="8080" />
-  </server>
-  <server id="WebSphere Application Server V8.5 Liberty Profile" name="WebSphere Application Server V8.5 Liberty Profile" auto-publish-setting="2" auto-publish-time="1" hostname="localhost" looseConfig="false" runtime-id="WebSphere Application Server V8.5 Liberty Profile" server-type="com.ibm.ws.st.server.v85.was" server-type-id="com.ibm.ws.st.server.v85.was" serverName="WLP01" start-timeout="240" stop-timeout="30" timestamp="0" />
-</servers>
-
