@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+C:\User\U512446\Projects\test-maven\.metadata\.plugins\org.eclipse.jdt.core

@@ -1,0 +1,378 @@
+!SESSION 2017-03-16 03:28:29.713 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -data C:\User\U512446\Projects\test-maven -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-03-16 03:28:37.175
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-16 03:28:37.175
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42c2a1da,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.springsource.sts.roo.ui.shell.show,Open Roo Command Prompt,
+		Roo Command Prompt,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70ca533a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:28:37.846
+!MESSAGE System property http.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:28:37.846
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:28:37.846
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:28:37.862
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:28:37.862
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:28:37.862
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-16 03:28:41.840
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\U512446'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.tigris.subversion.subclipse.core 4 0 2017-03-16 03:28:46.008
+!MESSAGE Could not auto-share project WebSphere Application Server V8.5 Liberty Profile
+!STACK 1
+org.tigris.subversion.subclipse.core.SVNException: Provided SVN information does not match that on disk for project 'WebSphere Application Server V8.5 Liberty Profile'.
+	at org.tigris.subversion.subclipse.core.resources.SVNWorkspaceRoot.setSharing(SVNWorkspaceRoot.java:206)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.autoconnectSVNProject(SVNTeamProviderType.java:140)
+	at org.tigris.subversion.subclipse.core.SVNTeamProviderType$AutoShareJob.run(SVNTeamProviderType.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.tigris.subversion.subclipse.core 4 4 2017-03-16 03:28:46.055
+!MESSAGE Provided SVN information does not match that on disk for project 'WebSphere Application Server V8.5 Liberty Profile'.
+
+!ENTRY org.eclipse.ui 4 4 2017-03-16 03:28:48.120
+!MESSAGE An internal error has occurred.
+!STACK 0
+java.lang.NullPointerException
+	at com.atlassian.connector.eclipse.internal.bamboo.ui.BambooUiPlugin$2.runInUIThread(BambooUiPlugin.java:93)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:97)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:172)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:387)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:500)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:284)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:460)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:306)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3183)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1201)
+	at org.eclipse.ui.internal.Workbench.access$22(Workbench.java:1113)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1454)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1451)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2680)
+	at com.inetpsa.eat.eclipse.initializer.utils.DialogTools$1.run(DialogTools.java:68)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2017-03-16 03:28:56.782
+!MESSAGE exception locating element declaration for server/server@[0, 33] (<server description="new server">)@[334, 343] (</server>)
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.common.uriresolver.internal.URIResolverExtensionRegistryReader.readRegistry(URIResolverExtensionRegistryReader.java:71)
+	at org.eclipse.wst.common.uriresolver.internal.URIResolverExtensionRegistry.getIntance(URIResolverExtensionRegistry.java:62)
+	at org.eclipse.wst.common.uriresolver.internal.ExtensibleURIResolver.resolve(ExtensibleURIResolver.java:59)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLCatalogIdResolver.resolve(XMLCatalogIdResolver.java:92)
+	at org.eclipse.wst.xml.core.internal.modelquery.XMLModelQueryAssociationProvider.resolveGrammarURI(XMLModelQueryAssociationProvider.java:58)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.resolveGrammarURI(XMLAssociationProvider.java:168)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.lookupOrCreateResolvedURI(CMDocumentManagerImpl.java:122)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl.getCMDocument(CMDocumentManagerImpl.java:172)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.getCMDocument(XMLAssociationProvider.java:157)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.getCMElementDeclaration(XMLAssociationProvider.java:305)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.checkExternalSchema(XMLAssociationProvider.java:273)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.XMLAssociationProvider.getCMElementDeclaration(XMLAssociationProvider.java:227)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.BaseAssociationProvider.getCMNode(BaseAssociationProvider.java:47)
+	at org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.ModelQueryImpl.getCMNode(ModelQueryImpl.java:101)
+	at com.ibm.ws.st.core.internal.config.SchemaUtil.getCMDocument(SchemaUtil.java:421)
+	at com.ibm.ws.st.core.internal.config.SchemaUtil.getElement(SchemaUtil.java:105)
+	at com.ibm.ws.st.core.internal.config.SchemaUtil.getAttribute(SchemaUtil.java:85)
+	at com.ibm.ws.st.core.internal.config.ConfigurationFile.getAppLabelMap(ConfigurationFile.java:191)
+	at com.ibm.ws.st.core.internal.config.ConfigurationFile.getApplications(ConfigurationFile.java:698)
+	at com.ibm.ws.st.core.internal.config.ConfigurationFile.getApplications(ConfigurationFile.java:683)
+	at com.ibm.ws.st.core.internal.WebSphereServerBehaviour.syncExternalModules(WebSphereServerBehaviour.java:216)
+	at com.ibm.ws.st.core.internal.WebSphereServerBehaviour.initialize(WebSphereServerBehaviour.java:163)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.initialize(ServerBehaviourDelegate.java:101)
+	at org.eclipse.wst.server.core.model.InternalInitializer.initializeServerBehaviourDelegate(InternalInitializer.java:41)
+	at org.eclipse.wst.server.core.internal.Server.getBehaviourDelegate(Server.java:531)
+	at org.eclipse.wst.server.core.internal.Server.loadAdapter(Server.java:1616)
+	at com.ibm.ws.st.core.internal.WASPublishControllerDelegate.isPublishRequired(WASPublishControllerDelegate.java:29)
+	at org.eclipse.wst.server.core.internal.PublishController.isPublishRequired(PublishController.java:87)
+	at org.eclipse.wst.server.core.ServerCore.isPublishRequired(ServerCore.java:576)
+	at org.eclipse.wst.server.core.internal.ResourceManager$3.visit(ResourceManager.java:1132)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:63)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:74)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:47)
+	at org.eclipse.wst.server.core.internal.ResourceManager.getPublishRequiredServers(ResourceManager.java:1109)
+	at org.eclipse.wst.server.core.internal.ResourceManager.publishHandleProjectChange(ResourceManager.java:1075)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener$1.visit(ResourceManager.java:125)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:63)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:74)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:47)
+	at org.eclipse.wst.server.core.internal.ResourceManager$ServerResourceChangeListener.resourceChanged(ResourceManager.java:119)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:359)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:147)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-03-16 03:29:03.094
+!MESSAGE An internal error occurred during: "Initializing Spring Roo Tooling".
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.checkValid(BundleContextImpl.java:983)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:463)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.registerService(BundleContextImpl.java:482)
+	at org.springframework.ide.eclipse.roo.core.RooCoreActivator.registerHttpPgpUrlHandler(RooCoreActivator.java:134)
+	at org.springframework.ide.eclipse.roo.core.RooCoreActivator.access$0(RooCoreActivator.java:107)
+	at org.springframework.ide.eclipse.roo.core.RooCoreActivator$1.run(RooCoreActivator.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-03-16 03:29:06.604
+!MESSAGE Liberty Server Configuration Validator finished validating: file:/C:/Program%20Files/Eclipse_DEV/Serveurs/J2EE/websphere/wlp-developers-8.5.5.8/usr/servers/WLP01/server.xml
+
+!ENTRY org.eclipse.wst.validation 4 0 2017-03-16 03:29:06.604
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.ws.st.core.internal.Trace.logError(Trace.java:104)
+	at com.ibm.ws.st.core.internal.config.validation.AbstractConfigurationValidator.validate(AbstractConfigurationValidator.java:281)
+	at com.ibm.ws.st.core.internal.config.validation.AbstractConfigurationValidator.validate(AbstractConfigurationValidator.java:136)
+	at com.ibm.ws.st.core.internal.config.validation.ConfigurationValidator.validate(ConfigurationValidator.java:92)
+	at org.eclipse.wst.validation.Validator$V2.validate(Validator.java:1159)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:704)
+	at org.eclipse.wst.validation.internal.ValManager$1.visit(ValManager.java:665)
+	at org.eclipse.wst.validation.internal.ValManager.accept(ValManager.java:810)
+	at org.eclipse.wst.validation.internal.ValManager.validate(ValManager.java:669)
+	at org.eclipse.wst.validation.internal.ValBuilderJob$Visitor.visit(ValBuilderJob.java:299)
+	at org.eclipse.core.internal.resources.Resource$2.visit(Resource.java:119)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:83)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:87)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:129)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:93)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:51)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:116)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:104)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.fullBuild(ValBuilderJob.java:219)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.run(ValBuilderJob.java:178)
+	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:39)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-03-16 03:29:08.276 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -data C:\User\U512446\Projects\test-maven -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-03-16 03:29:17.342
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-16 03:29:17.342
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40f53ea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.springsource.sts.roo.ui.shell.show,Open Roo Command Prompt,
+		Roo Command Prompt,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a1216b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:29:18.013
+!MESSAGE System property http.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:29:18.013
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:29:18.013
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:29:18.013
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:29:18.013
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:29:18.013
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-16 03:29:22.162
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\U512446'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-03-16 03:59:46.559 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -data C:\User\U512446\Projects\test-maven -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-03-16 03:59:53.550
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-16 03:59:53.550
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@34ccce55,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.springsource.sts.roo.ui.shell.show,Open Roo Command Prompt,
+		Roo Command Prompt,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7668edd7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:59:54.080
+!MESSAGE System property http.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:59:54.080
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:59:54.096
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:59:54.096
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:59:54.096
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 03:59:54.096
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-16 03:59:58.183
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\U512446'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.debug.core 4 120 2017-03-16 04:08:40.778
+!MESSAGE Variable references empty selection: ${project_loc}
+
+!ENTRY org.eclipse.debug.core 4 120 2017-03-16 04:08:53.836
+!MESSAGE Variable references empty selection: ${project_loc}
+!SESSION 2017-03-16 15:06:34.528 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product -data C:\User\U512446\Projects\test-maven -pluginCustomization eclipse-dev-preferences.ini -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2017-03-16 15:06:40.584
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-03-16 15:06:40.584
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.jboss.tools.jmx.ui.navigate.refresh,Refresh,
+		Refreshes the tree,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@181909f0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(com.springsource.sts.roo.ui.shell.show,Open Roo Command Prompt,
+		Roo Command Prompt,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f9af742,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 15:06:41.176
+!MESSAGE System property http.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 15:06:41.176
+!MESSAGE System property http.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 15:06:41.176
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 15:06:41.176
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 15:06:41.176
+!MESSAGE System property https.proxyHost is not set but should be http.internetpsa.inetpsa.com.
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-16 15:06:41.176
+!MESSAGE System property https.proxyPort is not set but should be 80.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-03-16 15:06:45.794
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\U512446'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

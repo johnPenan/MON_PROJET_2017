@@ -1,0 +1,12 @@
+package org.sonatype.mavenbook;
+
+/**
+ * Hello world!
+ */
+public class App {
+    private static String VERSION = "4.0.9";
+
+    public static void main(String[] args) {
+        System.out.println("La version de mon programme est: " + VERSION);
+    }
+}

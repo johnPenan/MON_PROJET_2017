@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launchConfiguration type="org.eclipse.ui.externaltools.ProgramLaunchConfigurationType">
+<stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${workspace}"/>
+<booleanAttribute key="org.eclipse.debug.core.appendEnvironmentVariables" value="true"/>
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING" value="UTF-8"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.ui.externaltools.launchGroup"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${MVN3_BIN}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="lego3-archetype:create&#13;&#10; -DarchetypeArtifactId=lego-archetype-web -DuseMavenNature=true -DuseCheckstyle=true&#13;&#10; -Dprd=${string_prompt:Project's PRD value (e.g.='prd', Code PRD de l'application)?:}&#13;&#10; -Dversion=${string_prompt:Project initial version (default=1.0.0, Version initiale du projet)?:}&#13;&#10; -DversionFwk=${string_prompt:LEGO framework version (default=last LEGO release, Version du framework LEGO)?:}&#13;&#10; -Dhibernate=${string_prompt:Hibernate use for persistence (Utilisation d'Hibernate)?:true}&#13;&#10; -Dojb=${string_prompt:OJB use for persistence (Utilisation d'OJB)?:false}&#13;&#10; -Dflex=${string_prompt:Flex use for RIA (Utilisation de Flex pour la RIA)?:false}"/>
+<stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc}"/>
+</launchConfiguration>
