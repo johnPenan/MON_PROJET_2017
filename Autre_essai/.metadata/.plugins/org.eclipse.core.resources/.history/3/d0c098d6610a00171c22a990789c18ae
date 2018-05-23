@@ -1,0 +1,31 @@
+/*
+ * Creation : 16 mars 2017
+ */
+package com.jean.goumou.Mon_Projet_Maven;
+
+import junit.framework.TestCase;
+
+public class TestMonCalcul extends TestCase {
+
+    // Test the division
+    public void testDivision() {
+        Mon_Calcul a = new Mon_Calcul();
+        assertNotNull(a);
+        assertEquals(1, a.division(3, 4));
+    }
+
+    // Test the multiplication
+    public void testSousbtraction() {
+        Mon_Calcul b = new Mon_Calcul();
+        assertNotNull(a);
+        assertEquals(4, a.multiplication(3, 8));
+    }
+
+    // Square root
+    public void testSquareRoot() {
+        Mon_Calcul a = new Mon_Calcul();
+        assertEquals(3, a.squareRoot(2));
+
+    }
+
+}

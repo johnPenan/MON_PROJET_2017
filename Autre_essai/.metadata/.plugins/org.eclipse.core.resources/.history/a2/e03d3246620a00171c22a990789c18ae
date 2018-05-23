@@ -1,0 +1,13 @@
+/*
+ * Creation : 16 mars 2017
+ */
+package com.jean.goumou.Mon_Projet_Maven;
+
+import junit.framework.TestCase;
+
+public class TestMonCalcul extends TestCase {
+
+   
+    
+
+}

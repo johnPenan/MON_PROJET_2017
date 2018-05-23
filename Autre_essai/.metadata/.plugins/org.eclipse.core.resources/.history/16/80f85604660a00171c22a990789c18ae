@@ -1,0 +1,15 @@
+/*
+ * Creation : 16 mars 2017
+ */
+package com.jean.goumou.Mon_Projet_Maven;
+
+import junit.framework.TestCase;
+
+public class TestCalcul extends TestCase {
+    public void TestDivision() {
+        Mon_Calcul d = new Mon_Calcul();
+        assertNotNull(d);
+
+    }
+
+}

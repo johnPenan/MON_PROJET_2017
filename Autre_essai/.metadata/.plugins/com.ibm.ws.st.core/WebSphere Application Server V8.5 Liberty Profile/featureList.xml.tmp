@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<featureInfo name="core" location="C:\Program Files\Eclipse_DEV\Serveurs\J2EE\websphere\wlp-developers-8.5.5.8"> 
+    <privateFeature> 
+        <symbolicName>com.ibm.websphere.appclient.appClient-1.0</symbolicName> 
+        <include symbolicName="com.ibm.websphere.appserver.appmanager-1.0"></include> 
+        <include symbolicName="com.ibm.websphere.appserver.iiopclient-1.0"></include> 
+        <include symbolicName="com.ibm.websphere.appclient.client-1.0"></include> 
+        <include symbolicName="com.ibm.websphere.appserver.injection-1.0"></include> 
+        <include symbolicName="com.ibm.websphere.appserver.javaeePlatform-7.0"></include> 
+    </privateFeature> 
+    <privateFeature> 
+        <symbolicName>com.ibm.websphere.appclient.client-1.0</symbolicName> 
+    </privateFeature> 
+    <privateFeature> 
+        <symbolicName>com.ibm.websphere.appserver.adminSecurity-1.0</symbolicName> 
+        <include symbolicName="com.ibm.websphere.appserver.servlet-3.0" tolerates="3.1"></include> 
+        <include symbolicName="com.ibm.websphere.appserver.distributedMap-1.0" shortName="distributedMap-1.0"></include> 
+        <include symbolicName="com.ibm.websphere.appserver.security-1.0"></include> 
+    </privateFeature> 
+    <privateFeature> 
+        <symbolicName>com.ibm.websphere.appserver.anno-1.0</symbolicName> 
+        <include symbolicName="com.ibm.websphere.appserver.javax.annotation-1.1" tolerates="1.2"></include> 
+        <include symbolicName="com.ibm.websphere.appserver.artifact-1.0"></include> 
+    </privateFeature> 
+    <feature name="appClientSupport-1.0"> 
+        <symbolicName>com.ibm.websphere.appserver.appClientSupport-1.0</symbolicName> 
+        <displayName>Application Client Support for Server</displayName>
